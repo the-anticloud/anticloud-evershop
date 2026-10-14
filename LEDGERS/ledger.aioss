@@ -1,0 +1,9 @@
+# AIOSS ledger v1
+# project: ONLINE_RETAIL/EVERSHOP
+# records: 5
+# head: 041671a1c10b63dfaf280b085aa53db49151734549cd3941732d4823d1c1e645
+{"digest": "eab6f5066676ee66d8ad46801e3108a19cc912682ee3fe4ed815fcb513686280", "kind": "bench-report", "path": "BENCH.json", "payload_sha3": "060f6341dd8eaaddb088f9d1adff56288972eef263baed675ed8306d9c24ff5c", "prev": "5a5a9db5fb708ae61804306200e7a9e31853dde596c5f14d2303d4349fe14b2d", "seq": 0, "ts": "2026-10-09T05:53:51Z"}
+{"digest": "b68fc73c5befb0de27c193165f3b5ce7e4f721b984d3f496ed9405409a5ed45f", "kind": "result-register", "path": "ISOLATED_LAB_RESULTS/03_Result_Register.md", "payload_sha3": "257ff58e26fa349f2923a6d4236a29835c05e552d2ee25cd6ded2ebf4f757b1c", "prev": "eab6f5066676ee66d8ad46801e3108a19cc912682ee3fe4ed815fcb513686280", "seq": 1, "ts": "2026-10-09T05:53:51Z"}
+{"digest": "12dd2cb0e58844acd9ed1d48932a5b5729c65b9f892c949636b32179007719af", "kind": "readme", "path": "README.md", "payload_sha3": "221386016bdbab674d3f9917db8dce5ca2da6b5a0dcd41958ad674d732e91ed4", "prev": "b68fc73c5befb0de27c193165f3b5ce7e4f721b984d3f496ed9405409a5ed45f", "seq": 2, "ts": "2026-10-09T05:53:51Z"}
+{"digest": "da86d0fbf6f659b0d4a345f560ceca1918b23561c1f8ced7ff162a962d7b93b9", "kind": "licence", "path": "ANTICOMMONS_LICENSE.md", "payload_sha3": "56c3361d31acb6aeb5694168f0edd9f8ba478aa27290b3aa70413c2bf8044b45", "prev": "12dd2cb0e58844acd9ed1d48932a5b5729c65b9f892c949636b32179007719af", "seq": 3, "ts": "2026-10-09T05:53:51Z"}
+{"digest": "041671a1c10b63dfaf280b085aa53db49151734549cd3941732d4823d1c1e645", "kind": "notice", "path": "NOTICE", "payload_sha3": "38522ab65eb2906331aca8187053a7f84f3430eab651b9bb00272e63b13b9236", "prev": "da86d0fbf6f659b0d4a345f560ceca1918b23561c1f8ced7ff162a962d7b93b9", "seq": 4, "ts": "2026-10-09T05:53:51Z"}
