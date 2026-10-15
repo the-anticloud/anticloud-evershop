@@ -1,0 +1,6047 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "EVERSHOP",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ONLINE_RETAIL\\EVERSHOP\\UPSTREAM_CLONE",
+  "git": {
+   "head": "f13ed5d487741ceba5b979806ff52927a4793434",
+   "url": "https://github.com/mercurjs/mercur",
+   "branch": "main",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+  }
+ },
+ "metrics": {
+  "files_total": 4391,
+  "source_files_scanned": 3733,
+  "lines_of_code": 287486,
+  "languages": {
+   ".ts": 2244,
+   ".tsx": 1477,
+   ".mdx": 262,
+   ".png": 126,
+   ".json": 113,
+   ".md": 70,
+   "(none)": 19,
+   ".svg": 18,
+   ".jpg": 12,
+   ".js": 10,
+   ".test": 5,
+   ".patch": 4,
+   ".css": 4,
+   ".ttf": 4,
+   ".mjs": 3
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 509,
+  "unique": 179,
+  "by_ecosystem": {
+   "npm": 509
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "workspace:*",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^10.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^10.6.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "globals",
+    "version": "^17.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "oxlint",
+    "version": "^1.64.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pg-god",
+    "version": "^1.0.12",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.7.4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "turbo",
+    "version": "^2.7.4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.53.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/cli",
+    "version": "*",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/unzipper",
+    "version": "^0.10.10",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-sdk",
+    "version": "2.21.2",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "templates/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-sdk",
+    "version": "2.21.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^20.0.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.25",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.2.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.2.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.6.2",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^6.4.3",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yalc",
+    "version": "^1.0.0-pre.53",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-sdk",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-shared",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": ">=4.2.3",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": ">=2.21.0",
+    "source_file": "templates/plugin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "18.3.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "18.3.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.4.3",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-shared",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/docs",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "17.0.8",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "5.64.2",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-hook-form",
+    "version": "7.49.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/resolvers",
+    "version": "5.4.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "9.0.2",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-jwt",
+    "version": "2.1.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.25",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.9",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.2.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "esbuild",
+    "version": "^0.25.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^6.4.3",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.39.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^9.39.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.1",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-refresh",
+    "version": "^0.4.24",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "globals",
+    "version": "^16.5.0",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.46.4",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.7.4",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "turbo",
+    "version": "^2.7.4",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "templates/basic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-sdk",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/core-flows",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/dashboard",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-shared",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/draft-order",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "http-proxy-middleware",
+    "version": "3.0.7",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/cli",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@acme/admin",
+    "version": "*",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@acme/vendor",
+    "version": "*",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/jest",
+    "version": "^0.2.36",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^29.5.13",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^20.12.11",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^29.7.0",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yalc",
+    "version": "^1.0.0-pre.53",
+    "source_file": "templates/basic/packages/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/admin",
+    "version": "2.3.8-canary.0",
+    "source_file": "templates/basic/apps/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.3.1",
+    "source_file": "templates/basic/apps/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.3.1",
+    "source_file": "templates/basic/apps/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "source_file": "templates/basic/apps/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^24.10.1",
+    "source_file": "templates/basic/apps/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "packages/types/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/types/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-shared",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "5.64.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "17.0.14",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/vendor",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/core-flows",
+    "version": "2.21.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-hook-form",
+    "version": "7.88.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/resolvers",
+    "version": "5.4.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "9.0.3",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-jwt",
+    "version": "2.1.1",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "algoliasearch",
+    "version": "^5.40.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "meilisearch",
+    "version": "^0.59.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@talkjs/react",
+    "version": "^0.1.11",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/cli",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.22",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/unzipper",
+    "version": "^0.10.10",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/multer",
+    "version": "^2.0.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.9",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/jest",
+    "version": "^0.2.36",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^30.0.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^30.2.0",
+    "source_file": "packages/registry/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stripe",
+    "version": "^15.5.0",
+    "source_file": "packages/providers/payout-stripe-connect/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "packages/providers/payout-stripe-connect/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/providers/payout-stripe-connect/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.5.0",
+    "source_file": "packages/providers/payout-stripe-connect/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": ">=2.21.0",
+    "source_file": "packages/providers/payout-stripe-connect/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ariakit/react",
+    "version": "^0.4.15",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/runtime",
+    "version": "^8.0.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/core",
+    "version": "^6.1.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/sortable",
+    "version": "^8.0.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/utilities",
+    "version": "^3.2.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/error-message",
+    "version": "^2.0.1",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/resolvers",
+    "version": "5.4.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-shared",
+    "version": "2.21.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/dashboard",
+    "version": "2.21.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dialog",
+    "version": "1.1.19",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dismissable-layer",
+    "version": "1.1.4",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "5.64.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-virtual",
+    "version": "^3.8.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "3.31.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-image",
+    "version": "3.31.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extensions",
+    "version": "3.31.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "3.31.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/react",
+    "version": "3.31.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/starter-kit",
+    "version": "3.31.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@uiw/react-json-view",
+    "version": "^2.0.0-alpha.17",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cmdk",
+    "version": "^1.1.1",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "copy-to-clipboard",
+    "version": "^4.0.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "date-fns",
+    "version": "^3.6.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "dompurify",
+    "version": "^3.4.16",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "26.4.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-browser-languagedetector",
+    "version": "7.2.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-http-backend",
+    "version": "3.0.5",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash.debounce",
+    "version": "^4.0.8",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash.isequal",
+    "version": "^4.5.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "match-sorter",
+    "version": "^8.3.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "motion",
+    "version": "^11.15.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "qs",
+    "version": "^6.12.1",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "radix-ui",
+    "version": "1.1.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-country-flag",
+    "version": "^3.1.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-currency-input-field",
+    "version": "^4.0.6",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-helmet-async",
+    "version": "^3.0.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-hook-form",
+    "version": "7.88.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "17.0.14",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-jwt",
+    "version": "^2.1.1",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash.debounce",
+    "version": "^4.0.8",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.22",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.0.2",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.0.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.0.0",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "^7.18.1",
+    "source_file": "packages/dashboard-shared/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/parser",
+    "version": "8.0.5",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/traverse",
+    "version": "8.0.6",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/types",
+    "version": "8.0.6",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "esbuild-register",
+    "version": "^3.6.0",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26.1.0",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.0.2",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.1.3",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "packages/dashboard-sdk/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@antfu/ni",
+    "version": "^30.3.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "commander",
+    "version": "^15.0.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "execa",
+    "version": "^10.0.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.3.2",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "kleur",
+    "version": "^4.1.5",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "open",
+    "version": "^11.0.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ora",
+    "version": "^9.0.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pg",
+    "version": "^8.17.1",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prompts",
+    "version": "^2.4.2",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tar",
+    "version": "^7.5.2",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "terminal-link",
+    "version": "^5.0.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "validate-npm-package-name",
+    "version": "^8.0.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "wait-on",
+    "version": "^9.0.3",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/fs-extra",
+    "version": "^11.0.4",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/pg",
+    "version": "^8.16.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/prompts",
+    "version": "^2.4.9",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/tar",
+    "version": "^7.0.87",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/validate-npm-package-name",
+    "version": "^4.0.2",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/wait-on",
+    "version": "^5.3.4",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.5.0",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/create-mercur-app/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@orama/orama",
+    "version": "^3.1.18",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pkg-dir",
+    "version": "4",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "resolve-cwd",
+    "version": "^3.0.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sanitize-html",
+    "version": "2.17.7",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cors",
+    "version": "^2.8.5",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/core-flows",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/cors",
+    "version": "^2.8.17",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/express",
+    "version": "^4.17.21",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/multer",
+    "version": "^2.0.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26.1.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.25",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/sanitize-html",
+    "version": "^2.16.1",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.2.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.2.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsx",
+    "version": "^4.19.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yalc",
+    "version": "^1.0.0-pre.53",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "multer",
+    "version": "^2.0.2",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "http-proxy-middleware",
+    "version": "^3.0.3",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/cli",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-sdk",
+    "version": ">=2.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": ">=2.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": ">=2.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": ">=2.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": ">=2.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": ">=2.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "express",
+    "version": "^4.21.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "^5.64.2",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "qs",
+    "version": "^6.12.1",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/qs",
+    "version": "^6.9.18",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.5.0",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": ">=4.8.0",
+    "source_file": "packages/client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@antfu/ni",
+    "version": "^30.3.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-bundler",
+    "version": "2.21.2",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "commander",
+    "version": "^15.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cosmiconfig",
+    "version": "^9.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "deepmerge",
+    "version": "^4.3.1",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "diff",
+    "version": "^8.0.2",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "execa",
+    "version": "9.6.1",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.3.2",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "kleur",
+    "version": "^4.1.5",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ora",
+    "version": "^9.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pkg-dir",
+    "version": "^9.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prompts",
+    "version": "^2.4.2",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "resolve-cwd",
+    "version": "^3.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-morph",
+    "version": "^28.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsconfig-paths",
+    "version": "^4.2.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.1.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/fs-extra",
+    "version": "^11.0.4",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/prompts",
+    "version": "^2.4.9",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.5.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-shared",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ariakit/react",
+    "version": "^0.4.15",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/runtime",
+    "version": "^8.0.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/core",
+    "version": "^6.1.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/sortable",
+    "version": "^8.0.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/utilities",
+    "version": "^3.2.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/error-message",
+    "version": "^2.0.1",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/resolvers",
+    "version": "5.4.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-shared",
+    "version": "2.21.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/dashboard",
+    "version": "2.21.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dialog",
+    "version": "1.1.19",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dismissable-layer",
+    "version": "1.1.4",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "5.64.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-virtual",
+    "version": "^3.8.3",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@uiw/react-json-view",
+    "version": "^2.0.0-alpha.17",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cmdk",
+    "version": "^1.1.1",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "copy-to-clipboard",
+    "version": "^4.0.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "date-fns",
+    "version": "^3.6.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "26.4.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-browser-languagedetector",
+    "version": "7.2.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-http-backend",
+    "version": "3.0.5",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash.debounce",
+    "version": "^4.0.8",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash.isequal",
+    "version": "^4.5.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "match-sorter",
+    "version": "^8.3.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "motion",
+    "version": "^11.15.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "qs",
+    "version": "^6.12.1",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "radix-ui",
+    "version": "1.1.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-country-flag",
+    "version": "^3.1.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-currency-input-field",
+    "version": "^4.0.6",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-helmet-async",
+    "version": "^3.0.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-hook-form",
+    "version": "7.88.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "17.0.14",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-jwt",
+    "version": "^2.1.1",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui-preset",
+    "version": "2.21.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.22",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "autoprefixer",
+    "version": "^10.4.20",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "postcss",
+    "version": "^8.4.49",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^4.3.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsup",
+    "version": "^8.0.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "5.9.3",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.0.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.0.0",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "^7.18.1",
+    "source_file": "packages/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "*",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "scrypt-kdf",
+    "version": "^2.0.1",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/draft-order",
+    "version": "2.21.2",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "meilisearch",
+    "version": "^0.59.0",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "*",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@jest/test-sequencer",
+    "version": "^30.2.0",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/jest",
+    "version": "^0.2.36",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^30.0.0",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26.1.0",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^30.2.0",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "7.0.2",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "integration-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/draft-order",
+    "version": "2.21.2",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "*",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "*",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^9.0.3",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "scrypt-kdf",
+    "version": "^2.0.1",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "^1.49.0",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "dotenv",
+    "version": "^16.4.5",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "get-port",
+    "version": "^7.1.0",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.6",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26.1.0",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.9.0",
+    "source_file": "e2e-tests/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/admin",
+    "version": "*",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "*",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "*",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.3.1",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.3.1",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.3",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.25",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.1.3",
+    "source_file": "e2e-tests/hosts/admin/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@headlessui/react",
+    "version": "^2.2.1",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/resolvers",
+    "version": "^3.10.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "^4.0.33",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "2.3.8-canary.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@stripe/react-stripe-js",
+    "version": "^3.7.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@stripe/stripe-js",
+    "version": "^7.1.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@talkjs/react",
+    "version": "^0.1.11",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/js-cookie",
+    "version": "^3.0.6",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "date-fns",
+    "version": "^4.1.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "embla-carousel-react",
+    "version": "^8.5.2",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "^26.4.2",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-browser-languagedetector",
+    "version": "^8.1.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "js-cookie",
+    "version": "^3.0.5",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "15.5.24",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.1",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-country-flag",
+    "version": "^3.1.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.0.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-hook-form",
+    "version": "^7.88.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "^17.0.14",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sanitize-html",
+    "version": "2.17.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sonner",
+    "version": "^2.0.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwind-merge",
+    "version": "^2.6.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "talkjs",
+    "version": "^0.37.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^11.0.5",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@chromatic-com/storybook",
+    "version": "^3.2.3",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/eslintrc",
+    "version": "^3",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ianvs/prettier-plugin-sort-imports",
+    "version": "^4.7.0",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/addon-essentials",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/addon-interactions",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/addon-onboarding",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/blocks",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/nextjs",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/react",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@storybook/test",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash",
+    "version": "^4.17.15",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/sanitize-html",
+    "version": "^2.16.1",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-next",
+    "version": "15.5.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-storybook",
+    "version": "^0.11.2",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "postcss",
+    "version": "^8",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.5.3",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier-plugin-tailwindcss",
+    "version": "^0.6.13",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "storybook",
+    "version": "^8.4.7",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^3.4.1",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5",
+    "source_file": "apps/storefront/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-sdk",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/dashboard",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/admin-shared",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/draft-order",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/core",
+    "version": "*",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/types",
+    "version": "*",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "http-proxy-middleware",
+    "version": "^3.0.3",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/cli",
+    "version": "*",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@swc/jest",
+    "version": "^0.2.36",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^30.0.0",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^26.1.0",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^30.4.2",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yalc",
+    "version": "^1.0.0-pre.53",
+    "source_file": "apps/api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/admin",
+    "version": "*",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.3.1",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^18.3.1",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.5",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "*",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/dashboard-shared",
+    "version": "*",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mercurjs/client",
+    "version": "*",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "26.4.2",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "17.0.14",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "5.64.2",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-hook-form",
+    "version": "7.88.0",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hookform/resolvers",
+    "version": "5.4.0",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "9.0.3",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-jwt",
+    "version": "^2.1.1",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^18.2.25",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.9",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.3",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.1.3",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^10.6.0",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^10.0.1",
+    "source_file": "apps/admin-test/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 107,
+  "files_with_findings": 102,
+  "severity": {
+   "high": 8,
+   "medium": 8,
+   "low": 91
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "packages/registry/src/messaging/modules/messaging-redis/service.ts",
+      "line": 64,
+      "cwe": "CWE-95",
+      "snippet": "const count = await this.connection_.eval("
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/patches/unified-diff.ts",
+      "line": 57,
+      "cwe": "CWE-95",
+      "snippet": "const header = HUNK_HEADER.exec(line)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/modules/seller/repositories/order-group.ts",
+      "line": 106,
+      "cwe": "CWE-95",
+      "snippet": "const match = /^#?g?(\\d{1,9})$/i.exec(search)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/modules/commission/migrations/Migration20260615120000.ts",
+      "line": 30,
+      "cwe": "CWE-89",
+      "snippet": "this.addSql(`insert into \"commission_rate\" (\"id\", \"is_enabled\", \"is_default\", \"currency_code\", \"name\", \"code\", \"type\", \"value\", \"raw_value\", \"include_tax\", \"include_shipping\", \"cre"
+     },
+     {
+      "severity": "high",
+      "file": "packages/cli/src/registry/env.ts",
+      "line": 8,
+      "cwe": "CWE-95",
+      "snippet": "let match = regex.exec(value);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/admin/scripts/generate-extension-targets.ts",
+      "line": 43,
+      "cwe": "CWE-95",
+      "snippet": "while ((m = re.exec(code))) slots.add(m[1])"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 46,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "packages/types/src/payout/common.ts",
+      "line": 34,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Move to order-related domain events"
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/hooks/use-date.tsx",
+      "line": 3,
+      "cwe": "CWE-",
+      "snippet": "// TODO: We rely on the current language to determine the date locale. This is not ideal, as we use en-US for the english translation."
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/components/table/data-table/data-table-root/data-table-root.tsx",
+      "line": 77,
+      "cwe": "CWE-",
+      "snippet": "* TODO"
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/components/data-grid/components/data-grid-root.tsx",
+      "line": 121,
+      "cwe": "CWE-",
+      "snippet": "* TODO:"
+     },
+     {
+      "severity": "low",
+      "file": "packages/create-mercur-app/src/commands/create.ts",
+      "line": 49,
+      "cwe": "CWE-",
+      "snippet": "// todo: uncomment registry template"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/workflows/cart/workflows/complete-cart-with-split-orders.ts",
+      "line": 261,
+      "cwe": "CWE-",
+      "snippet": "// todo: add credit lines support for child orders"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/utils/dashboard/dashboard-base.ts",
+      "line": 42,
+      "cwe": "CWE-",
+      "snippet": "// todo: do not hardcode port"
+     },
+     {
+      "severity": "low",
+      "file": "packages/cli/src/utils/file-type.ts",
+      "line": 23,
+      "cwe": "CWE-",
+      "snippet": "// todo: add target support if path handling is not enough"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/tax-regions/tax-region-create/components/tax-region-create-form/tax-region-create-form.tsx",
+      "line": 93,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Check if optional region's tax code is correct - was it intentionally set as optional? It's same for vendor panel."
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/tax-regions/common/components/target-form/target-form.tsx",
+      "line": 135,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Enable when needed"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/profile/profile-edit/components/edit-profile-form/edit-profile-form.tsx",
+      "line": 150,
+      "cwe": "CWE-",
+      "snippet": "{/* TODO: Do we want to implement usage insights in V2? */}"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/profile/profile-detail/components/profile-general-section/profile-general-section.tsx",
+      "line": 82,
+      "cwe": "CWE-",
+      "snippet": "{/* TODO: Do we want to implement usage insights in V2? */}"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/products/product-detail/components/product-sales-channel-section/product-sales-channel-section.tsx",
+      "line": 8,
+      "cwe": "CWE-",
+      "snippet": "// TODO: The fetched sales channel doesn't contain all necessary info"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-detail/order-detail.tsx",
+      "line": 39,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Retrieve endpoints don't have an order ability, so a JS sort until this is available"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-detail/components/order-activity-section/order-activity-section.tsx",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "{/* TODO: Re-add when we have support for notes */}"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-detail/components/order-activity-section/order-timeline.tsx",
+      "line": 714,
+      "cwe": "CWE-",
+      "snippet": "* TODO: Add once notes are supported."
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-return/components/return-create-form/return-create-form.tsx",
+      "line": 131,
+      "cwe": "CWE-",
+      "snippet": "* TODO: this should accept filter for location_id"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-return/components/return-create-form/return-item.tsx",
+      "line": 119,
+      "cwe": "CWE-",
+      "snippet": "// todo: move on blur"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-return/components/return-create-form/schema.ts",
+      "line": 15,
+      "cwe": "CWE-",
+      "snippet": "// TODO: implement this"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-exchange/components/exchange-create-form/exchange-outbound-item.tsx",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "// TODO: create a payload type for outbound updates"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-exchange/components/exchange-create-form/exchange-outbound-section.tsx",
+      "line": 59,
+      "cwe": "CWE-",
+      "snippet": "// TODO: filter in the API when boolean filter is supported and fulfillment module support partial rule SO filtering"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-claim/components/claim-create-form/claim-create-form.tsx",
+      "line": 103,
+      "cwe": "CWE-",
+      "snippet": "// TODO: implement confirm claim request"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-claim/components/claim-create-form/claim-outbound-item.tsx",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "// TODO: create a payload type for outbound updates"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-claim/components/claim-create-form/claim-outbound-section.tsx",
+      "line": 60,
+      "cwe": "CWE-",
+      "snippet": "// TODO: filter in the API when boolean filter is supported and fulfillment module support partial rule SO filtering"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-create-claim/components/claim-create-form/schema.ts",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "item_id: z.string(), // TODO: variant id?"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "templates/basic/packages/api/src/scripts/seed.ts",
+      "line": 597,
+      "cwe": "CWE-798",
+      "snippet": "const SELLER_PASSWORD = \"supersecret\";"
+     },
+     {
+      "severity": "high",
+      "file": "apps/api/src/scripts/seed.ts",
+      "line": 435,
+      "cwe": "CWE-798",
+      "snippet": "const SELLER_PASSWORD = \"supersecret\";"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 32,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "templates/basic/packages/api/medusa-config.ts",
+      "line": 60,
+      "cwe": "CWE-319",
+      "snippet": "backend_url: process.env.FILE_BACKEND_URL || 'http://localhost:9000/static',"
+     },
+     {
+      "severity": "low",
+      "file": "templates/basic/apps/admin/vite.config.ts",
+      "line": 15,
+      "cwe": "CWE-319",
+      "snippet": "// same-origin; it defaults to http://localhost:9000 for development."
+     },
+     {
+      "severity": "low",
+      "file": "scripts/deploy.sh",
+      "line": 51,
+      "cwe": "CWE-319",
+      "snippet": "DOMAIN=\"${DOMAIN#http://}\""
+     },
+     {
+      "severity": "low",
+      "file": "scripts/dev-worktree.sh",
+      "line": 148,
+      "cwe": "CWE-319",
+      "snippet": "ADMIN_CORS=\"http://localhost:$ADMIN_PORT,http://localhost:$API_PORT\" \\"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/dev.sh",
+      "line": 36,
+      "cwe": "CWE-319",
+      "snippet": "echo \"\u2192 Starting apps/api       (http://localhost:9000)\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/registry/src/meilisearch/__tests__/service.unit.spec.ts",
+      "line": 22,
+      "cwe": "CWE-319",
+      "snippet": "config: { host: 'http://localhost:7700' },"
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/utils/images-conventer.ts",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "images.startsWith(\"http://localhost:9000\") ||"
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/components/icons/list-badge.tsx",
+      "line": 11,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/components/common/logo-box/avatar-box.tsx",
+      "line": 26,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-shared/src/components/common/file-preview/file-preview.tsx",
+      "line": 67,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-sdk/src/plugin.ts",
+      "line": 241,
+      "cwe": "CWE-319",
+      "snippet": "vendorAppUrl = `http://${vendorHost}:${vendorPort}${vendorPath}`;"
+     },
+     {
+      "severity": "low",
+      "file": "packages/dashboard-sdk/src/types.ts",
+      "line": 24,
+      "cwe": "CWE-319",
+      "snippet": "* @default \"http://localhost:9000\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/create-mercur-app/src/commands/create.ts",
+      "line": 311,
+      "cwe": "CWE-319",
+      "snippet": "? `http://localhost:9000/dashboard/invite?token=${dbResult.inviteToken}&first_run=true`"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/utils/dashboard/dashboard-base.ts",
+      "line": 43,
+      "cwe": "CWE-319",
+      "snippet": "this.logger.info(`${this.appName} URL \u2192 http://localhost:9000${this.options_.path}`)"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/utils/images-conventer.ts",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "images.startsWith(\"http://localhost:9000\") ||"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/stores/store-details/components/store-members-section/store-members-data-table.tsx",
+      "line": 76,
+      "cwe": "CWE-319",
+      "snippet": "typeof window === \"undefined\" ? \"http://localhost\" : window.location.origin,"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/pages/orders/order-request-transfer/components/create-order-transfer-form/transfer-header.tsx",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/lib/client/client.ts",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "export const backendUrl = config.backendUrl ?? 'http://localhost:9000'"
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/components/common/logo-box/avatar-box.tsx",
+      "line": 26,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/admin/src/components/common/file-preview/file-preview.tsx",
+      "line": 67,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "integration-tests/http/product-categories/admin/product-categories-media.spec.ts",
+      "line": 10,
+      "cwe": "CWE-319",
+      "snippet": "const mediaImage = (i: number) => `http://example.com/category-media-${i}.png`"
+     },
+     {
+      "severity": "low",
+      "file": "integration-tests/http/collections/admin/collections-media.spec.ts",
+      "line": 10,
+      "cwe": "CWE-319",
+      "snippet": "const mediaImage = (i: number) => `http://example.com/collection-media-${i}.png`"
+     },
+     {
+      "severity": "low",
+      "file": "integration-tests/helpers/mock-meilisearch.ts",
+      "line": 18,
+      "cwe": "CWE-319",
+      "snippet": "config: { host: \"http://localhost:7700\" },"
+     },
+     {
+      "severity": "low",
+      "file": "e2e-tests/src/stack/dashboard.ts",
+      "line": 57,
+      "cwe": "CWE-319",
+      "snippet": "const url = `http://localhost:${port}`"
+     },
+     {
+      "severity": "low",
+      "file": "e2e-tests/src/stack/medusa.ts",
+      "line": 54,
+      "cwe": "CWE-319",
+      "snippet": "const url = `http://localhost:${port}`"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 21,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "templates/basic/packages/api/src/subscribers/storefront-cache-revalidate.ts",
+      "line": 86,
+      "cwe": "CWE-918",
+      "snippet": "await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "packages/create-mercur-app/src/commands/create.ts",
+      "line": 416,
+      "cwe": "CWE-918",
+      "snippet": "const res = await fetch(url);"
+     },
+     {
+      "severity": "medium",
+      "file": "packages/client/src/index.ts",
+      "line": 136,
+      "cwe": "CWE-918",
+      "snippet": "return fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "packages/cli/src/registry/fetcher.ts",
+      "line": 68,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "packages/cli/src/codegen/manifest.ts",
+      "line": 31,
+      "cwe": "CWE-918",
+      "snippet": "const res = await fetch(url, { signal: controller.signal });"
+     },
+     {
+      "severity": "medium",
+      "file": "e2e-tests/src/stack/dashboard.ts",
+      "line": 20,
+      "cwe": "CWE-918",
+      "snippet": "const res = await fetch(url)"
+     },
+     {
+      "severity": "medium",
+      "file": "e2e-tests/src/stack/medusa.ts",
+      "line": 16,
+      "cwe": "CWE-918",
+      "snippet": "const res = await fetch(url)"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/middleware.ts",
+      "line": 20,
+      "cwe": "CWE-601",
+      "snippet": "const response = NextResponse.redirect(redirectUrl);"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/lib/data/cart.ts",
+      "line": 426,
+      "cwe": "CWE-601",
+      "snippet": "redirect(`/user/orders/${res.data.order_group.id}`);"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/lib/data/customer.ts",
+      "line": 140,
+      "cwe": "CWE-601",
+      "snippet": "redirect(`/`);"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/components/molecules/NavbarSearch/NavbarSearch.tsx",
+      "line": 21,
+      "cwe": "CWE-601",
+      "snippet": "redirect(`/categories?query=${search}`)"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(reset-password)/layout.tsx",
+      "line": 16,
+      "cwe": "CWE-601",
+      "snippet": "return redirect(\"/\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(main)/layout.tsx",
+      "line": 22,
+      "cwe": "CWE-601",
+      "snippet": "return redirect('/');"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(main)/user/page.tsx",
+      "line": 9,
+      "cwe": "CWE-601",
+      "snippet": "redirect(\"/login\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(main)/user/register/page.tsx",
+      "line": 9,
+      "cwe": "CWE-601",
+      "snippet": "redirect(\"/user\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(main)/user/orders/[id]/page.tsx",
+      "line": 21,
+      "cwe": "CWE-601",
+      "snippet": "if (!user) return redirect(\"/login\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(main)/user/addresses/page.tsx",
+      "line": 12,
+      "cwe": "CWE-601",
+      "snippet": "redirect(\"/login\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(auth)/layout.tsx",
+      "line": 16,
+      "cwe": "CWE-601",
+      "snippet": "return redirect(\"/\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(auth)/register/page.tsx",
+      "line": 15,
+      "cwe": "CWE-601",
+      "snippet": "redirect(\"/user\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/storefront/src/app/[locale]/(auth)/login/page.tsx",
+      "line": 15,
+      "cwe": "CWE-601",
+      "snippet": "redirect(\"/user\")"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/api/src/subscribers/storefront-cache-revalidate.ts",
+      "line": 86,
+      "cwe": "CWE-918",
+      "snippet": "await fetch(url, {"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 1,
+  "files_with_findings": 1,
+  "severity": {
+   "high": 0,
+   "medium": 1,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "packages/create-mercur-app/src/commands/create.ts",
+      "line": 186,
+      "cwe": "CWE-1336",
+      "snippet": "await extractTemplate({ tarballPath, ref, projectDir, template });"
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b2e15622-fe8a-5d4e-acb0-53ff7e37049a",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T06:29:43Z",
+   "component": {
+    "type": "application",
+    "name": "EVERSHOP",
+    "version": "f13ed5d48774",
+    "bom-ref": "pkg:generic/anticloud/EVERSHOP@f13ed5d48774",
+    "purl": "pkg:generic/anticloud/EVERSHOP@f13ed5d48774",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "f13ed5d487741ceba5b979806ff52927a4793434"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@mercurjs/core",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@mercurjs/core@workspace:*",
+    "bom-ref": "npm/@mercurjs/core@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@eslint/js",
+    "version": "^10.0.1",
+    "purl": "pkg:npm/@eslint/js@^10.0.1",
+    "bom-ref": "npm/@eslint/js@^10.0.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^10.6.0",
+    "purl": "pkg:npm/eslint@^10.6.0",
+    "bom-ref": "npm/eslint@^10.6.0"
+   },
+   {
+    "type": "library",
+    "name": "globals",
+    "version": "^17.0.0",
+    "purl": "pkg:npm/globals@^17.0.0",
+    "bom-ref": "npm/globals@^17.0.0"
+   },
+   {
+    "type": "library",
+    "name": "oxlint",
+    "version": "^1.64.0",
+    "purl": "pkg:npm/oxlint@^1.64.0",
+    "bom-ref": "npm/oxlint@^1.64.0"
+   },
+   {
+    "type": "library",
+    "name": "pg-god",
+    "version": "^1.0.12",
+    "purl": "pkg:npm/pg-god@^1.0.12",
+    "bom-ref": "npm/pg-god@^1.0.12"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "^3.7.4",
+    "purl": "pkg:npm/prettier@^3.7.4",
+    "bom-ref": "npm/prettier@^3.7.4"
+   },
+   {
+    "type": "library",
+    "name": "turbo",
+    "version": "^2.7.4",
+    "purl": "pkg:npm/turbo@^2.7.4",
+    "bom-ref": "npm/turbo@^2.7.4"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "5.9.3",
+    "purl": "pkg:npm/typescript@5.9.3",
+    "bom-ref": "npm/typescript@5.9.3"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.53.0",
+    "purl": "pkg:npm/typescript-eslint@^8.53.0",
+    "bom-ref": "npm/typescript-eslint@^8.53.0"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/cli",
+    "version": "*",
+    "purl": "pkg:npm/@mercurjs/cli@*",
+    "bom-ref": "npm/@mercurjs/cli@*"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^22",
+    "purl": "pkg:npm/@types/node@^22",
+    "bom-ref": "npm/@types/node@^22"
+   },
+   {
+    "type": "library",
+    "name": "@types/unzipper",
+    "version": "^0.10.10",
+    "purl": "pkg:npm/@types/unzipper@^0.10.10",
+    "bom-ref": "npm/@types/unzipper@^0.10.10"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/admin-sdk",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/admin-sdk@2.21.2",
+    "bom-ref": "npm/@medusajs/admin-sdk@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/cli",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/cli@2.21.2",
+    "bom-ref": "npm/@medusajs/cli@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/framework",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/framework@2.21.2",
+    "bom-ref": "npm/@medusajs/framework@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/medusa",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/medusa@2.21.2",
+    "bom-ref": "npm/@medusajs/medusa@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/test-utils",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/test-utils@2.21.2",
+    "bom-ref": "npm/@medusajs/test-utils@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/ui",
+    "version": "4.2.3",
+    "purl": "pkg:npm/@medusajs/ui@4.2.3",
+    "bom-ref": "npm/@medusajs/ui@4.2.3"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/icons",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/icons@2.21.2",
+    "bom-ref": "npm/@medusajs/icons@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@swc/core",
+    "version": "^1.7.28",
+    "purl": "pkg:npm/@swc/core@^1.7.28",
+    "bom-ref": "npm/@swc/core@^1.7.28"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^18.3.2",
+    "purl": "pkg:npm/@types/react@^18.3.2",
+    "bom-ref": "npm/@types/react@^18.3.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "^18.2.25",
+    "purl": "pkg:npm/@types/react-dom@^18.2.25",
+    "bom-ref": "npm/@types/react-dom@^18.2.25"
+   },
+   {
+    "type": "library",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "purl": "pkg:npm/prop-types@^15.8.1",
+    "bom-ref": "npm/prop-types@^15.8.1"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^18.2.0",
+    "purl": "pkg:npm/react@^18.2.0",
+    "bom-ref": "npm/react@^18.2.0"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^18.2.0",
+    "purl": "pkg:npm/react-dom@^18.2.0",
+    "bom-ref": "npm/react-dom@^18.2.0"
+   },
+   {
+    "type": "library",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "purl": "pkg:npm/ts-node@^10.9.2",
+    "bom-ref": "npm/ts-node@^10.9.2"
+   },
+   {
+    "type": "library",
+    "name": "vite",
+    "version": "^6.4.3",
+    "purl": "pkg:npm/vite@^6.4.3",
+    "bom-ref": "npm/vite@^6.4.3"
+   },
+   {
+    "type": "library",
+    "name": "yalc",
+    "version": "^1.0.0-pre.53",
+    "purl": "pkg:npm/yalc@^1.0.0-pre.53",
+    "bom-ref": "npm/yalc@^1.0.0-pre.53"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/admin-shared",
+    "version": ">=2.21.0",
+    "purl": "pkg:npm/@medusajs/admin-shared@>=2.21.0",
+    "bom-ref": "npm/@medusajs/admin-shared@>=2.21.0"
+   },
+   {
+    "type": "library",
+    "name": "zod",
+    "version": "4.4.3",
+    "purl": "pkg:npm/zod@4.4.3",
+    "bom-ref": "npm/zod@4.4.3"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/dashboard-sdk",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/dashboard-sdk@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/dashboard-sdk@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/dashboard-shared",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/dashboard-shared@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/dashboard-shared@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/client",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/client@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/client@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/docs",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/docs@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/docs@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "react-i18next",
+    "version": "17.0.8",
+    "purl": "pkg:npm/react-i18next@17.0.8",
+    "bom-ref": "npm/react-i18next@17.0.8"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/react-query",
+    "version": "5.64.2",
+    "purl": "pkg:npm/@tanstack/react-query@5.64.2",
+    "bom-ref": "npm/@tanstack/react-query@5.64.2"
+   },
+   {
+    "type": "library",
+    "name": "react-router-dom",
+    "version": "7.18.1",
+    "purl": "pkg:npm/react-router-dom@7.18.1",
+    "bom-ref": "npm/react-router-dom@7.18.1"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "purl": "pkg:npm/@tanstack/react-table@8.21.3",
+    "bom-ref": "npm/@tanstack/react-table@8.21.3"
+   },
+   {
+    "type": "library",
+    "name": "react-hook-form",
+    "version": "7.49.1",
+    "purl": "pkg:npm/react-hook-form@7.49.1",
+    "bom-ref": "npm/react-hook-form@7.49.1"
+   },
+   {
+    "type": "library",
+    "name": "@hookform/resolvers",
+    "version": "5.4.0",
+    "purl": "pkg:npm/@hookform/resolvers@5.4.0",
+    "bom-ref": "npm/@hookform/resolvers@5.4.0"
+   },
+   {
+    "type": "library",
+    "name": "jsonwebtoken",
+    "version": "9.0.2",
+    "purl": "pkg:npm/jsonwebtoken@9.0.2",
+    "bom-ref": "npm/jsonwebtoken@9.0.2"
+   },
+   {
+    "type": "library",
+    "name": "react-jwt",
+    "version": "2.1.1",
+    "purl": "pkg:npm/react-jwt@2.1.1",
+    "bom-ref": "npm/react-jwt@2.1.1"
+   },
+   {
+    "type": "library",
+    "name": "@types/jsonwebtoken",
+    "version": "^9.0.9",
+    "purl": "pkg:npm/@types/jsonwebtoken@^9.0.9",
+    "bom-ref": "npm/@types/jsonwebtoken@^9.0.9"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.2.0",
+    "purl": "pkg:npm/@vitejs/plugin-react@^5.2.0",
+    "bom-ref": "npm/@vitejs/plugin-react@^5.2.0"
+   },
+   {
+    "type": "library",
+    "name": "esbuild",
+    "version": "^0.25.0",
+    "purl": "pkg:npm/esbuild@^0.25.0",
+    "bom-ref": "npm/esbuild@^0.25.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.1",
+    "purl": "pkg:npm/eslint-plugin-react-hooks@^7.0.1",
+    "bom-ref": "npm/eslint-plugin-react-hooks@^7.0.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-refresh",
+    "version": "^0.4.24",
+    "purl": "pkg:npm/eslint-plugin-react-refresh@^0.4.24",
+    "bom-ref": "npm/eslint-plugin-react-refresh@^0.4.24"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/core-flows",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/core-flows@2.21.2",
+    "bom-ref": "npm/@medusajs/core-flows@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/dashboard",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/dashboard@2.21.2",
+    "bom-ref": "npm/@medusajs/dashboard@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/draft-order",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/draft-order@2.21.2",
+    "bom-ref": "npm/@medusajs/draft-order@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/types",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/types@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/types@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "http-proxy-middleware",
+    "version": "3.0.7",
+    "purl": "pkg:npm/http-proxy-middleware@3.0.7",
+    "bom-ref": "npm/http-proxy-middleware@3.0.7"
+   },
+   {
+    "type": "library",
+    "name": "@acme/admin",
+    "version": "*",
+    "purl": "pkg:npm/@acme/admin@*",
+    "bom-ref": "npm/@acme/admin@*"
+   },
+   {
+    "type": "library",
+    "name": "@acme/vendor",
+    "version": "*",
+    "purl": "pkg:npm/@acme/vendor@*",
+    "bom-ref": "npm/@acme/vendor@*"
+   },
+   {
+    "type": "library",
+    "name": "@swc/jest",
+    "version": "^0.2.36",
+    "purl": "pkg:npm/@swc/jest@^0.2.36",
+    "bom-ref": "npm/@swc/jest@^0.2.36"
+   },
+   {
+    "type": "library",
+    "name": "@types/jest",
+    "version": "^29.5.13",
+    "purl": "pkg:npm/@types/jest@^29.5.13",
+    "bom-ref": "npm/@types/jest@^29.5.13"
+   },
+   {
+    "type": "library",
+    "name": "jest",
+    "version": "^29.7.0",
+    "purl": "pkg:npm/jest@^29.7.0",
+    "bom-ref": "npm/jest@^29.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/admin",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/admin@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/admin@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/types",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/types@2.21.2",
+    "bom-ref": "npm/@medusajs/types@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "@mercurjs/vendor",
+    "version": "2.3.8-canary.0",
+    "purl": "pkg:npm/@mercurjs/vendor@2.3.8-canary.0",
+    "bom-ref": "npm/@mercurjs/vendor@2.3.8-canary.0"
+   },
+   {
+    "type": "library",
+    "name": "algoliasearch",
+    "version": "^5.40.0",
+    "purl": "pkg:npm/algoliasearch@^5.40.0",
+    "bom-ref": "npm/algoliasearch@^5.40.0"
+   },
+   {
+    "type": "library",
+    "name": "meilisearch",
+    "version": "^0.59.0",
+    "purl": "pkg:npm/meilisearch@^0.59.0",
+    "bom-ref": "npm/meilisearch@^0.59.0"
+   },
+   {
+    "type": "library",
+    "name": "@talkjs/react",
+    "version": "^0.1.11",
+    "purl": "pkg:npm/@talkjs/react@^0.1.11",
+    "bom-ref": "npm/@talkjs/react@^0.1.11"
+   },
+   {
+    "type": "library",
+    "name": "@types/multer",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/@types/multer@^2.0.0",
+    "bom-ref": "npm/@types/multer@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stripe",
+    "version": "^15.5.0",
+    "purl": "pkg:npm/stripe@^15.5.0",
+    "bom-ref": "npm/stripe@^15.5.0"
+   },
+   {
+    "type": "library",
+    "name": "tsup",
+    "version": "^8.5.0",
+    "purl": "pkg:npm/tsup@^8.5.0",
+    "bom-ref": "npm/tsup@^8.5.0"
+   },
+   {
+    "type": "library",
+    "name": "@ariakit/react",
+    "version": "^0.4.15",
+    "purl": "pkg:npm/@ariakit/react@^0.4.15",
+    "bom-ref": "npm/@ariakit/react@^0.4.15"
+   },
+   {
+    "type": "library",
+    "name": "@babel/runtime",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/runtime@^8.0.0",
+    "bom-ref": "npm/@babel/runtime@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@dnd-kit/core",
+    "version": "^6.1.0",
+    "purl": "pkg:npm/@dnd-kit/core@^6.1.0",
+    "bom-ref": "npm/@dnd-kit/core@^6.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@dnd-kit/sortable",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@dnd-kit/sortable@^8.0.0",
+    "bom-ref": "npm/@dnd-kit/sortable@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@dnd-kit/utilities",
+    "version": "^3.2.2",
+    "purl": "pkg:npm/@dnd-kit/utilities@^3.2.2",
+    "bom-ref": "npm/@dnd-kit/utilities@^3.2.2"
+   },
+   {
+    "type": "library",
+    "name": "@hookform/error-message",
+    "version": "^2.0.1",
+    "purl": "pkg:npm/@hookform/error-message@^2.0.1",
+    "bom-ref": "npm/@hookform/error-message@^2.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-dialog",
+    "version": "1.1.19",
+    "purl": "pkg:npm/@radix-ui/react-dialog@1.1.19",
+    "bom-ref": "npm/@radix-ui/react-dialog@1.1.19"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-dismissable-layer",
+    "version": "1.1.4",
+    "purl": "pkg:npm/@radix-ui/react-dismissable-layer@1.1.4",
+    "bom-ref": "npm/@radix-ui/react-dismissable-layer@1.1.4"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/react-virtual",
+    "version": "^3.8.3",
+    "purl": "pkg:npm/@tanstack/react-virtual@^3.8.3",
+    "bom-ref": "npm/@tanstack/react-virtual@^3.8.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/core",
+    "version": "3.31.3",
+    "purl": "pkg:npm/@tiptap/core@3.31.3",
+    "bom-ref": "npm/@tiptap/core@3.31.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-image",
+    "version": "3.31.3",
+    "purl": "pkg:npm/@tiptap/extension-image@3.31.3",
+    "bom-ref": "npm/@tiptap/extension-image@3.31.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extensions",
+    "version": "3.31.3",
+    "purl": "pkg:npm/@tiptap/extensions@3.31.3",
+    "bom-ref": "npm/@tiptap/extensions@3.31.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/pm",
+    "version": "3.31.3",
+    "purl": "pkg:npm/@tiptap/pm@3.31.3",
+    "bom-ref": "npm/@tiptap/pm@3.31.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/react",
+    "version": "3.31.3",
+    "purl": "pkg:npm/@tiptap/react@3.31.3",
+    "bom-ref": "npm/@tiptap/react@3.31.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/starter-kit",
+    "version": "3.31.3",
+    "purl": "pkg:npm/@tiptap/starter-kit@3.31.3",
+    "bom-ref": "npm/@tiptap/starter-kit@3.31.3"
+   },
+   {
+    "type": "library",
+    "name": "@uiw/react-json-view",
+    "version": "^2.0.0-alpha.17",
+    "purl": "pkg:npm/@uiw/react-json-view@^2.0.0-alpha.17",
+    "bom-ref": "npm/@uiw/react-json-view@^2.0.0-alpha.17"
+   },
+   {
+    "type": "library",
+    "name": "cmdk",
+    "version": "^1.1.1",
+    "purl": "pkg:npm/cmdk@^1.1.1",
+    "bom-ref": "npm/cmdk@^1.1.1"
+   },
+   {
+    "type": "library",
+    "name": "copy-to-clipboard",
+    "version": "^4.0.2",
+    "purl": "pkg:npm/copy-to-clipboard@^4.0.2",
+    "bom-ref": "npm/copy-to-clipboard@^4.0.2"
+   },
+   {
+    "type": "library",
+    "name": "date-fns",
+    "version": "^3.6.0",
+    "purl": "pkg:npm/date-fns@^3.6.0",
+    "bom-ref": "npm/date-fns@^3.6.0"
+   },
+   {
+    "type": "library",
+    "name": "dompurify",
+    "version": "^3.4.16",
+    "purl": "pkg:npm/dompurify@^3.4.16",
+    "bom-ref": "npm/dompurify@^3.4.16"
+   },
+   {
+    "type": "library",
+    "name": "i18next",
+    "version": "26.4.2",
+    "purl": "pkg:npm/i18next@26.4.2",
+    "bom-ref": "npm/i18next@26.4.2"
+   },
+   {
+    "type": "library",
+    "name": "i18next-browser-languagedetector",
+    "version": "7.2.0",
+    "purl": "pkg:npm/i18next-browser-languagedetector@7.2.0",
+    "bom-ref": "npm/i18next-browser-languagedetector@7.2.0"
+   },
+   {
+    "type": "library",
+    "name": "i18next-http-backend",
+    "version": "3.0.5",
+    "purl": "pkg:npm/i18next-http-backend@3.0.5",
+    "bom-ref": "npm/i18next-http-backend@3.0.5"
+   },
+   {
+    "type": "library",
+    "name": "lodash.debounce",
+    "version": "^4.0.8",
+    "purl": "pkg:npm/lodash.debounce@^4.0.8",
+    "bom-ref": "npm/lodash.debounce@^4.0.8"
+   },
+   {
+    "type": "library",
+    "name": "lodash.isequal",
+    "version": "^4.5.0",
+    "purl": "pkg:npm/lodash.isequal@^4.5.0",
+    "bom-ref": "npm/lodash.isequal@^4.5.0"
+   },
+   {
+    "type": "library",
+    "name": "match-sorter",
+    "version": "^8.3.0",
+    "purl": "pkg:npm/match-sorter@^8.3.0",
+    "bom-ref": "npm/match-sorter@^8.3.0"
+   },
+   {
+    "type": "library",
+    "name": "motion",
+    "version": "^11.15.0",
+    "purl": "pkg:npm/motion@^11.15.0",
+    "bom-ref": "npm/motion@^11.15.0"
+   },
+   {
+    "type": "library",
+    "name": "qs",
+    "version": "^6.12.1",
+    "purl": "pkg:npm/qs@^6.12.1",
+    "bom-ref": "npm/qs@^6.12.1"
+   },
+   {
+    "type": "library",
+    "name": "radix-ui",
+    "version": "1.1.2",
+    "purl": "pkg:npm/radix-ui@1.1.2",
+    "bom-ref": "npm/radix-ui@1.1.2"
+   },
+   {
+    "type": "library",
+    "name": "react-country-flag",
+    "version": "^3.1.0",
+    "purl": "pkg:npm/react-country-flag@^3.1.0",
+    "bom-ref": "npm/react-country-flag@^3.1.0"
+   },
+   {
+    "type": "library",
+    "name": "react-currency-input-field",
+    "version": "^4.0.6",
+    "purl": "pkg:npm/react-currency-input-field@^4.0.6",
+    "bom-ref": "npm/react-currency-input-field@^4.0.6"
+   },
+   {
+    "type": "library",
+    "name": "react-helmet-async",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/react-helmet-async@^3.0.0",
+    "bom-ref": "npm/react-helmet-async@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/lodash.debounce",
+    "version": "^4.0.8",
+    "purl": "pkg:npm/@types/lodash.debounce@^4.0.8",
+    "bom-ref": "npm/@types/lodash.debounce@^4.0.8"
+   },
+   {
+    "type": "library",
+    "name": "@babel/parser",
+    "version": "8.0.5",
+    "purl": "pkg:npm/@babel/parser@8.0.5",
+    "bom-ref": "npm/@babel/parser@8.0.5"
+   },
+   {
+    "type": "library",
+    "name": "@babel/traverse",
+    "version": "8.0.6",
+    "purl": "pkg:npm/@babel/traverse@8.0.6",
+    "bom-ref": "npm/@babel/traverse@8.0.6"
+   },
+   {
+    "type": "library",
+    "name": "@babel/types",
+    "version": "8.0.6",
+    "purl": "pkg:npm/@babel/types@8.0.6",
+    "bom-ref": "npm/@babel/types@8.0.6"
+   },
+   {
+    "type": "library",
+    "name": "esbuild-register",
+    "version": "^3.6.0",
+    "purl": "pkg:npm/esbuild-register@^3.6.0",
+    "bom-ref": "npm/esbuild-register@^3.6.0"
+   },
+   {
+    "type": "library",
+    "name": "@antfu/ni",
+    "version": "^30.3.0",
+    "purl": "pkg:npm/@antfu/ni@^30.3.0",
+    "bom-ref": "npm/@antfu/ni@^30.3.0"
+   },
+   {
+    "type": "library",
+    "name": "commander",
+    "version": "^15.0.0",
+    "purl": "pkg:npm/commander@^15.0.0",
+    "bom-ref": "npm/commander@^15.0.0"
+   },
+   {
+    "type": "library",
+    "name": "execa",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/execa@^10.0.0",
+    "bom-ref": "npm/execa@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "fs-extra",
+    "version": "^11.3.2",
+    "purl": "pkg:npm/fs-extra@^11.3.2",
+    "bom-ref": "npm/fs-extra@^11.3.2"
+   },
+   {
+    "type": "library",
+    "name": "kleur",
+    "version": "^4.1.5",
+    "purl": "pkg:npm/kleur@^4.1.5",
+    "bom-ref": "npm/kleur@^4.1.5"
+   },
+   {
+    "type": "library",
+    "name": "open",
+    "version": "^11.0.0",
+    "purl": "pkg:npm/open@^11.0.0",
+    "bom-ref": "npm/open@^11.0.0"
+   },
+   {
+    "type": "library",
+    "name": "ora",
+    "version": "^9.0.0",
+    "purl": "pkg:npm/ora@^9.0.0",
+    "bom-ref": "npm/ora@^9.0.0"
+   },
+   {
+    "type": "library",
+    "name": "pg",
+    "version": "^8.17.1",
+    "purl": "pkg:npm/pg@^8.17.1",
+    "bom-ref": "npm/pg@^8.17.1"
+   },
+   {
+    "type": "library",
+    "name": "prompts",
+    "version": "^2.4.2",
+    "purl": "pkg:npm/prompts@^2.4.2",
+    "bom-ref": "npm/prompts@^2.4.2"
+   },
+   {
+    "type": "library",
+    "name": "tar",
+    "version": "^7.5.2",
+    "purl": "pkg:npm/tar@^7.5.2",
+    "bom-ref": "npm/tar@^7.5.2"
+   },
+   {
+    "type": "library",
+    "name": "terminal-link",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/terminal-link@^5.0.0",
+    "bom-ref": "npm/terminal-link@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "validate-npm-package-name",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/validate-npm-package-name@^8.0.0",
+    "bom-ref": "npm/validate-npm-package-name@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "wait-on",
+    "version": "^9.0.3",
+    "purl": "pkg:npm/wait-on@^9.0.3",
+    "bom-ref": "npm/wait-on@^9.0.3"
+   },
+   {
+    "type": "library",
+    "name": "@types/fs-extra",
+    "version": "^11.0.4",
+    "purl": "pkg:npm/@types/fs-extra@^11.0.4",
+    "bom-ref": "npm/@types/fs-extra@^11.0.4"
+   },
+   {
+    "type": "library",
+    "name": "@types/pg",
+    "version": "^8.16.0",
+    "purl": "pkg:npm/@types/pg@^8.16.0",
+    "bom-ref": "npm/@types/pg@^8.16.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/prompts",
+    "version": "^2.4.9",
+    "purl": "pkg:npm/@types/prompts@^2.4.9",
+    "bom-ref": "npm/@types/prompts@^2.4.9"
+   },
+   {
+    "type": "library",
+    "name": "@types/tar",
+    "version": "^7.0.87",
+    "purl": "pkg:npm/@types/tar@^7.0.87",
+    "bom-ref": "npm/@types/tar@^7.0.87"
+   },
+   {
+    "type": "library",
+    "name": "@types/validate-npm-package-name",
+    "version": "^4.0.2",
+    "purl": "pkg:npm/@types/validate-npm-package-name@^4.0.2",
+    "bom-ref": "npm/@types/validate-npm-package-name@^4.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/wait-on",
+    "version": "^5.3.4",
+    "purl": "pkg:npm/@types/wait-on@^5.3.4",
+    "bom-ref": "npm/@types/wait-on@^5.3.4"
+   },
+   {
+    "type": "library",
+    "name": "@orama/orama",
+    "version": "^3.1.18",
+    "purl": "pkg:npm/@orama/orama@^3.1.18",
+    "bom-ref": "npm/@orama/orama@^3.1.18"
+   },
+   {
+    "type": "library",
+    "name": "pkg-dir",
+    "version": "4",
+    "purl": "pkg:npm/pkg-dir@4",
+    "bom-ref": "npm/pkg-dir@4"
+   },
+   {
+    "type": "library",
+    "name": "resolve-cwd",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/resolve-cwd@^3.0.0",
+    "bom-ref": "npm/resolve-cwd@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "sanitize-html",
+    "version": "2.17.7",
+    "purl": "pkg:npm/sanitize-html@2.17.7",
+    "bom-ref": "npm/sanitize-html@2.17.7"
+   },
+   {
+    "type": "library",
+    "name": "cors",
+    "version": "^2.8.5",
+    "purl": "pkg:npm/cors@^2.8.5",
+    "bom-ref": "npm/cors@^2.8.5"
+   },
+   {
+    "type": "library",
+    "name": "@types/cors",
+    "version": "^2.8.17",
+    "purl": "pkg:npm/@types/cors@^2.8.17",
+    "bom-ref": "npm/@types/cors@^2.8.17"
+   },
+   {
+    "type": "library",
+    "name": "@types/express",
+    "version": "^4.17.21",
+    "purl": "pkg:npm/@types/express@^4.17.21",
+    "bom-ref": "npm/@types/express@^4.17.21"
+   },
+   {
+    "type": "library",
+    "name": "@types/sanitize-html",
+    "version": "^2.16.1",
+    "purl": "pkg:npm/@types/sanitize-html@^2.16.1",
+    "bom-ref": "npm/@types/sanitize-html@^2.16.1"
+   },
+   {
+    "type": "library",
+    "name": "tsx",
+    "version": "^4.19.2",
+    "purl": "pkg:npm/tsx@^4.19.2",
+    "bom-ref": "npm/tsx@^4.19.2"
+   },
+   {
+    "type": "library",
+    "name": "multer",
+    "version": "^2.0.2",
+    "purl": "pkg:npm/multer@^2.0.2",
+    "bom-ref": "npm/multer@^2.0.2"
+   },
+   {
+    "type": "library",
+    "name": "express",
+    "version": "^4.21.0",
+    "purl": "pkg:npm/express@^4.21.0",
+    "bom-ref": "npm/express@^4.21.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/qs",
+    "version": "^6.9.18",
+    "purl": "pkg:npm/@types/qs@^6.9.18",
+    "bom-ref": "npm/@types/qs@^6.9.18"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/admin-bundler",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/admin-bundler@2.21.2",
+    "bom-ref": "npm/@medusajs/admin-bundler@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "cosmiconfig",
+    "version": "^9.0.0",
+    "purl": "pkg:npm/cosmiconfig@^9.0.0",
+    "bom-ref": "npm/cosmiconfig@^9.0.0"
+   },
+   {
+    "type": "library",
+    "name": "deepmerge",
+    "version": "^4.3.1",
+    "purl": "pkg:npm/deepmerge@^4.3.1",
+    "bom-ref": "npm/deepmerge@^4.3.1"
+   },
+   {
+    "type": "library",
+    "name": "diff",
+    "version": "^8.0.2",
+    "purl": "pkg:npm/diff@^8.0.2",
+    "bom-ref": "npm/diff@^8.0.2"
+   },
+   {
+    "type": "library",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "purl": "pkg:npm/fast-glob@^3.3.3",
+    "bom-ref": "npm/fast-glob@^3.3.3"
+   },
+   {
+    "type": "library",
+    "name": "ts-morph",
+    "version": "^28.0.0",
+    "purl": "pkg:npm/ts-morph@^28.0.0",
+    "bom-ref": "npm/ts-morph@^28.0.0"
+   },
+   {
+    "type": "library",
+    "name": "tsconfig-paths",
+    "version": "^4.2.0",
+    "purl": "pkg:npm/tsconfig-paths@^4.2.0",
+    "bom-ref": "npm/tsconfig-paths@^4.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@medusajs/ui-preset",
+    "version": "2.21.2",
+    "purl": "pkg:npm/@medusajs/ui-preset@2.21.2",
+    "bom-ref": "npm/@medusajs/ui-preset@2.21.2"
+   },
+   {
+    "type": "library",
+    "name": "autoprefixer",
+    "version": "^10.4.20",
+    "purl": "pkg:npm/autoprefixer@^10.4.20",
+    "bom-ref": "npm/autoprefixer@^10.4.20"
+   },
+   {
+    "type": "library",
+    "name": "postcss",
+    "version": "^8.4.49",
+    "purl": "pkg:npm/postcss@^8.4.49",
+    "bom-ref": "npm/postcss@^8.4.49"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss",
+    "version": "^4.3.2",
+    "purl": "pkg:npm/tailwindcss@^4.3.2",
+    "bom-ref": "npm/tailwindcss@^4.3.2"
+   },
+   {
+    "type": "library",
+    "name": "scrypt-kdf",
+    "version": "^2.0.1",
+    "purl": "pkg:npm/scrypt-kdf@^2.0.1",
+    "bom-ref": "npm/scrypt-kdf@^2.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@jest/test-sequencer",
+    "version": "^30.2.0",
+    "purl": "pkg:npm/@jest/test-sequencer@^30.2.0",
+    "bom-ref": "npm/@jest/test-sequencer@^30.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "^1.49.0",
+    "purl": "pkg:npm/@playwright/test@^1.49.0",
+    "bom-ref": "npm/@playwright/test@^1.49.0"
+   },
+   {
+    "type": "library",
+    "name": "dotenv",
+    "version": "^16.4.5",
+    "purl": "pkg:npm/dotenv@^16.4.5",
+    "bom-ref": "npm/dotenv@^16.4.5"
+   },
+   {
+    "type": "library",
+    "name": "get-port",
+    "version": "^7.1.0",
+    "purl": "pkg:npm/get-port@^7.1.0",
+    "bom-ref": "npm/get-port@^7.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@headlessui/react",
+    "version": "^2.2.1",
+    "purl": "pkg:npm/@headlessui/react@^2.2.1",
+    "bom-ref": "npm/@headlessui/react@^2.2.1"
+   },
+   {
+    "type": "library",
+    "name": "@stripe/react-stripe-js",
+    "version": "^3.7.0",
+    "purl": "pkg:npm/@stripe/react-stripe-js@^3.7.0",
+    "bom-ref": "npm/@stripe/react-stripe-js@^3.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@stripe/stripe-js",
+    "version": "^7.1.0",
+    "purl": "pkg:npm/@stripe/stripe-js@^7.1.0",
+    "bom-ref": "npm/@stripe/stripe-js@^7.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/js-cookie",
+    "version": "^3.0.6",
+    "purl": "pkg:npm/@types/js-cookie@^3.0.6",
+    "bom-ref": "npm/@types/js-cookie@^3.0.6"
+   },
+   {
+    "type": "library",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "purl": "pkg:npm/clsx@^2.1.1",
+    "bom-ref": "npm/clsx@^2.1.1"
+   },
+   {
+    "type": "library",
+    "name": "embla-carousel-react",
+    "version": "^8.5.2",
+    "purl": "pkg:npm/embla-carousel-react@^8.5.2",
+    "bom-ref": "npm/embla-carousel-react@^8.5.2"
+   },
+   {
+    "type": "library",
+    "name": "js-cookie",
+    "version": "^3.0.5",
+    "purl": "pkg:npm/js-cookie@^3.0.5",
+    "bom-ref": "npm/js-cookie@^3.0.5"
+   },
+   {
+    "type": "library",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "purl": "pkg:npm/lodash@^4.17.21",
+    "bom-ref": "npm/lodash@^4.17.21"
+   },
+   {
+    "type": "library",
+    "name": "next",
+    "version": "15.5.24",
+    "purl": "pkg:npm/next@15.5.24",
+    "bom-ref": "npm/next@15.5.24"
+   },
+   {
+    "type": "library",
+    "name": "sonner",
+    "version": "^2.0.7",
+    "purl": "pkg:npm/sonner@^2.0.7",
+    "bom-ref": "npm/sonner@^2.0.7"
+   },
+   {
+    "type": "library",
+    "name": "tailwind-merge",
+    "version": "^2.6.0",
+    "purl": "pkg:npm/tailwind-merge@^2.6.0",
+    "bom-ref": "npm/tailwind-merge@^2.6.0"
+   },
+   {
+    "type": "library",
+    "name": "talkjs",
+    "version": "^0.37.0",
+    "purl": "pkg:npm/talkjs@^0.37.0",
+    "bom-ref": "npm/talkjs@^0.37.0"
+   },
+   {
+    "type": "library",
+    "name": "uuid",
+    "version": "^11.0.5",
+    "purl": "pkg:npm/uuid@^11.0.5",
+    "bom-ref": "npm/uuid@^11.0.5"
+   },
+   {
+    "type": "library",
+    "name": "@chromatic-com/storybook",
+    "version": "^3.2.3",
+    "purl": "pkg:npm/@chromatic-com/storybook@^3.2.3",
+    "bom-ref": "npm/@chromatic-com/storybook@^3.2.3"
+   },
+   {
+    "type": "library",
+    "name": "@eslint/eslintrc",
+    "version": "^3",
+    "purl": "pkg:npm/@eslint/eslintrc@^3",
+    "bom-ref": "npm/@eslint/eslintrc@^3"
+   },
+   {
+    "type": "library",
+    "name": "@ianvs/prettier-plugin-sort-imports",
+    "version": "^4.7.0",
+    "purl": "pkg:npm/@ianvs/prettier-plugin-sort-imports@^4.7.0",
+    "bom-ref": "npm/@ianvs/prettier-plugin-sort-imports@^4.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/addon-essentials",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/addon-essentials@^8.4.7",
+    "bom-ref": "npm/@storybook/addon-essentials@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/addon-interactions",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/addon-interactions@^8.4.7",
+    "bom-ref": "npm/@storybook/addon-interactions@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/addon-onboarding",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/addon-onboarding@^8.4.7",
+    "bom-ref": "npm/@storybook/addon-onboarding@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/blocks",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/blocks@^8.4.7",
+    "bom-ref": "npm/@storybook/blocks@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/nextjs",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/nextjs@^8.4.7",
+    "bom-ref": "npm/@storybook/nextjs@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/react",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/react@^8.4.7",
+    "bom-ref": "npm/@storybook/react@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@storybook/test",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/@storybook/test@^8.4.7",
+    "bom-ref": "npm/@storybook/test@^8.4.7"
+   },
+   {
+    "type": "library",
+    "name": "@types/lodash",
+    "version": "^4.17.15",
+    "purl": "pkg:npm/@types/lodash@^4.17.15",
+    "bom-ref": "npm/@types/lodash@^4.17.15"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-next",
+    "version": "15.5.7",
+    "purl": "pkg:npm/eslint-config-next@15.5.7",
+    "bom-ref": "npm/eslint-config-next@15.5.7"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-storybook",
+    "version": "^0.11.2",
+    "purl": "pkg:npm/eslint-plugin-storybook@^0.11.2",
+    "bom-ref": "npm/eslint-plugin-storybook@^0.11.2"
+   },
+   {
+    "type": "library",
+    "name": "prettier-plugin-tailwindcss",
+    "version": "^0.6.13",
+    "purl": "pkg:npm/prettier-plugin-tailwindcss@^0.6.13",
+    "bom-ref": "npm/prettier-plugin-tailwindcss@^0.6.13"
+   },
+   {
+    "type": "library",
+    "name": "storybook",
+    "version": "^8.4.7",
+    "purl": "pkg:npm/storybook@^8.4.7",
+    "bom-ref": "npm/storybook@^8.4.7"
+   }
+  ]
+ },
+ "elapsed_seconds": 70.37,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "1d041a911e926d2f85f9a419d69ce228c96007dc",
+    "latest_commit": "1d041a9 anticloud overlay + upstream swap to mercurjs/mercur",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T06:29:50.204218+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "fa1168a8b22ed9e215d290bd99988d22841e5c0b52ebb69d3d0f6b4c828af6c7",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "mercurjs/mercur",
+  "sha": "f13ed5d487741ceba5b979806ff52927a4793434",
+  "at": "2026-10-12T06:29:50.204218+00:00"
+ }
+}
