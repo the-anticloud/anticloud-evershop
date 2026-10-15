@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "EVERSHOP",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ONLINE_RETAIL\\EVERSHOP\\UPSTREAM_CLONE",
   "git": {
-   "head": "f13ed5d487741ceba5b979806ff52927a4793434",
-   "url": "https://github.com/mercurjs/mercur",
-   "branch": "main",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/evershopcommerce/evershop",
+   "head": "1472cfd4a986eea546016a9d26d508633fc507e8",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/mercurjs/mercur"
   }
  },
  "metrics": {

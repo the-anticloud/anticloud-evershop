@@ -1,22 +1,25 @@
 # EVERSHOP
 
-> Mercur The open-source marketplace platform. A Mirakl alternative.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EverShop Documentation | Demo
 
-**Category:** ONLINE_RETAIL · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/mercurjs/mercur · **Pinned commit:** `f13ed5d487741ceba5b979806ff52927a4793434` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/mercurjs/mercur` as the implementation for the `EVERSHOP` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** ONLINE_RETAIL · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/evershopcommerce/evershop · **Pinned commit:** `1472cfd4a986eea546016a9d26d508633fc507e8` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-Mercur The open-source marketplace platform. A Mirakl alternative.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EverShop Documentation | Demo
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
+You can get started with EverShop in minutes by using the Docker image. The Docker image is a great way to get started with EverShop without having to worry about installing dependencies or configuring your environment.
+
+```bash
+curl -sSL https://raw.githubusercontent.com/evershopcommerce/evershop/main/docker-compose.yml > docker-compose.yml
+docker compose up -d
 ```
-# See the upstream README (linked above) for build steps.
-```
+
+For the full installation guide, please refer to our [Installation guide](https://evershop.io/docs/development/getting-started/installation-guide).
 
 ## Usage
 
@@ -62,7 +65,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-2e050da0d1bf0dd70775cd4513100d85775109ceeb5ff8f1cb7c67e8941af010
+2db7dde44060c0b14141870ba833721de01cac04e072ff4c17f9e168a8fd834c
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
